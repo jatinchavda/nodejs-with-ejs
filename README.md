@@ -1,2 +1,10 @@
 # nodejs-with-ejs
-nodejs with basic EJS example
+NodeJS with basic EJS example
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run start
+```
