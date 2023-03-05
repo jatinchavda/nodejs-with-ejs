@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="UTC-8" />
+        <meta />
+
+    </head>
+    <body>
+        <h1>This is EJS Demo</h1>
+        
+        <!-- print variable <%= username %>  -->
+        <p>Welcome <%= username %></p>
+
+        <!-- condition  -->
+        <% if (username == 'john'){ %>
+        <p>This is John</p>
+        <% } %>
+
+        <!-- include partials files -->
+        <%- include('./footer.ejs') %>
+    </body>
+</html>
